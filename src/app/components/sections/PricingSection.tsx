@@ -107,6 +107,7 @@ export default function PricingSection() {
       }}>
         {/* Support Button - Top Left */}
         <motion.button
+          className="pricing-support-button"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           style={{
@@ -123,6 +124,7 @@ export default function PricingSection() {
             cursor: 'pointer',
             display: 'flex',
             alignItems: 'center',
+            justifyContent: 'center',
             gap: '8px',
             zIndex: 10,
           }}
@@ -137,6 +139,7 @@ export default function PricingSection() {
 
         {/* Support Link */}
         <a
+          className="pricing-support-link"
           href="#support"
           style={{
             position: 'absolute',
